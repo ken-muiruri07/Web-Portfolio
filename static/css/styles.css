@@ -1,0 +1,176 @@
+body {
+    background-image: url('background-small.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    color: #3dbce7;
+}
+
+h2 {
+    font-size: 2.0rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    padding: 0 2%;
+    color: #ffffff;
+}
+
+.index-h1 {
+    padding: 7% 0 2% 2%;
+}
+
+p {
+    color: #ffffff;
+    padding: 3% 15%;
+}
+
+.skills-list {
+    color: #ffffff;
+    padding: 1% 15%;
+}
+
+.btn {
+    margin: 2%;
+}
+
+.contact-btn {
+margin: 0% 0 0 80%;
+}
+
+.socials {
+    position: relative;
+}
+
+.icon-link img {
+    margin: 2%;
+
+}
+
+.icon-link img:hover {
+    opacity: 0.7;
+}
+
+.text {
+    font-family: "Oswald", sans-serif;
+    margin: 2% 0 0 2%;
+    color:#ffffff;
+}
+
+.coding-gif {
+float: right;
+padding: 15% 15%;
+}
+
+.code-img {
+    float:right;
+    padding: 0;
+}
+
+.cv-icon {
+    float: left;
+    width: 2%;
+    margin: 0 0.5% 0 2%;
+}
+
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+
+}
+
+.about-icon-main {
+    margin-left: 700px;
+    padding: 2% 0;
+}
+
+.about-icon {
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.about-h1 {
+    text-align: center;
+    padding: 0;
+}
+
+.location {
+    color: #d4af37;
+    padding: 2% 0 0 2%;
+}
+
+.copyright {
+    color: #d4af37;
+    padding: 0 2%;
+}
+
+.about-copyright {
+    color: #d4af37;
+    text-align:center;
+}
+
+.contact-body {
+    text-align: left;
+    text-color:#ffffff;
+}
+
+.contact-head {
+    margin: 2%;
+}
+
+.contact-par {
+    text-align: left;
+    padding: 0 2%;
+}
+
+.contact-list {
+    color:#ffffff;
+    padding: 0 0 0 4%;
+}
+
+@media (max-width: 1028px) {
+    body {
+        font-size: 0.8rem;
+        background-image: url('background-small.jpg');
+        background-size: contain;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .icon-title {
+    margin-left: 90px;
+    }
+    .about-icon-main {
+    margin-left: 170px;
+    }
+    .about-icon {
+    width: 50px;
+    height:50px;
+    }
+    h1 {
+    font-size: 1.5rem;
+    }
+    h2 {
+    font-size: 1rem;
+    }
+    .icon-link img {
+    width: 30px;
+    height: 40px;
+    padding: 10% 2%;
+    }
+    .btn {
+    font-size: 10px;
+    }
+    .about-btn {
+    margin: 10% 2%;
+    }
+    .cv-icon {
+    width: 30px;
+    height: 30px;
+    }
+}
